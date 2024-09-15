@@ -46,6 +46,7 @@ nav {
     display: flex;
     align-items: center;
     margin-right: 50px;
+    font-size : 1vw;
 }
 
 .navright i {
