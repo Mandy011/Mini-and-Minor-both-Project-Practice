@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nnavMain {
+    background-color: white;
+}
+
+.myNavcenterpart li {
+    width: 90px;
+    text-align: center;
+}
+
+.myNavcenterpart li:hover {
+
+    border-radius: 20px;
+    background-color: #4232C2;
+
+    a {
+
+        color: white;
+    }
+
+}
+.buzz-color{
+    color: #4232C2;
+}
+/* .hero-section {} */
+
+#carouselExampleIndicators {
+    background-image: url(./image.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    min-height: 80vh;
+    width: 100;
+}
+/* <h1>Develop Strategies for
+your business</h1>
+<p>Purple Buzz is a corporate HTML template with Bootstrap 5 Beta 1. This CSS template is 100% free to
+download provided by <span>TemplateMo</span>. Total 6 HTML pages included in this template. Icon fonts by
+<span>Boxicons</span>.
+Photos are from <span>Unsplash</span> and <span>Icons 8.</span></p>
+</div> */
