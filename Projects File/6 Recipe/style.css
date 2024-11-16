@@ -52,10 +52,17 @@ body {
     flex-wrap: wrap;
     margin: auto;
     gap: 40px;
+    margin-top: 50px;
     width: 80%;
 
 }
-
+.containt{
+    background-color: #FFA23A;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    
+}
 .recipe {
     width: 300px;
     color: #FFA23A;

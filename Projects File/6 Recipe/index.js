@@ -10,11 +10,12 @@ document.body.appendChild(recipeContainer);
 // Async function to fetch recipe data
 const recipeFatchdata = async (value) => {
     try {
+        recipeContainer.innerHTML = "Fatching data of ...........";
         const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${value}`);
         const response = await data.json();
 
         // Clear the container before appending new recipes
-        recipeContainer.innerHTML = '';
+        recipeContainer.innerHTML = "";
 
         if (response.meals) {
             response.meals.forEach(meal => {
