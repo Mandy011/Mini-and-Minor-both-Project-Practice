@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperatrue</title>
+    <link rel="stylesheet" href="temp-style.css">
+</head>
+<body>
+    <div class="container">
+    <h1> Temperatrue conversion :  </h1><br>
+
+    <input type="number" for="temp" value="0" id="textbox"><br>
+
+    <input type="radio" name="temp-count" id="Celsius">
+    <label for="Celsius"  >Celsius ➡➡ fahrenheit </label><br>
+
+    <input type="radio" id="fahrenheit" name="temp-count">
+    <label for="fahrenheit" >fahrenheit ➡➡ Celsius </label><br>
+
+    <button type="submit" id="submit" onclick="convert()">Submit</button><br>
+
+    <h2 id="total">Select a Unit</h2></div>
+    <script src="temp-fun.js"></script>
+    
+</body>
+</html>

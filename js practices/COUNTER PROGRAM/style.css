@@ -1,0 +1,17 @@
+
+
+.counter-label{
+    display: block;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 10.5em;
+    
+}
+.button-all{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
